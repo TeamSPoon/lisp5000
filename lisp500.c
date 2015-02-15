@@ -1627,3 +1627,4 @@ struct symbol_init symi[] = {{"NIL"}, {"T"}, {"&REST"}, {"&BODY"},
 {"*ERROR-OUTPUT*"}, {"*PACKAGES*"}, {"STRING=", lstring_equal, 2},
 {"IMAKUNBOUND", limakunbound, 2}, {"EVAL", leval, -2}, {"JREF", ljref, 2, setfjref, 3},
 {"RUN-PROGRAM", lrp, -2}, {"UNAME", luname, 0}};
+
